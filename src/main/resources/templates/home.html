@@ -1,0 +1,19 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"> <!-- aplicar esse DOCTYPE html e html, por causa do Thymeleaf -->
+<head>
+<meta charset="ISO-8859-1">
+<title>Minha primeira página</title>
+</head>
+<body>
+
+	<p>Ola Mundo!</p>
+
+	<p>Exemplo do restart</p>
+
+	<p>
+		Seja bem vindo, <span th:text="${nomeUsuario}"></span>! <!-- th é a variável do Dependency Thymeleaf -->
+	</p>
+
+</body>
+</html>
